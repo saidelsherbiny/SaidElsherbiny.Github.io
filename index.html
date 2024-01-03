@@ -1,11 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Said El-Sherbiny</title>
+  <meta name="title" content="Said El-Sherbiny Portfolio">
+  <meta name="description" content="Said El-Sherbiny Portfolio, feel free to browse ctf Writeups, notes and Cool scripts!">
+  <meta name="google-site-verification" content="vidUxtYQwg3WAQ6b2iSJ-Qmaw0l2QoqHj8307CcyDNs" />
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/robot.png" type="image/png">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/robot.png">
+  <link rel="preload" as="image" href="./assets/images/robot.png">
+  <!-- Special thanks to https://github.com/codewithsadee for the template -->
 </head>
-<body>
-    <h1>Hello this is just a test</h1>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo-no-background.png" width="119" height="37" alt="Said logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-no-background.png" width="119" height="37" alt="Said logo">
+          </a>
+
+          <!-- <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button> -->
+        </div>
+
+      </nav>
+      <!-- <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button> -->
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Hello Everyone!</p>
+
+            <h1 class="headline headline-1 section-title">
+              I’m <span class="span">Said El-Sherbiny</span>
+            </h1>
+
+            <p class="hero-text">
+              IT professional passionate about cybersecurity, system administration, and programming. You can explore my work for intriguing write-ups, insightful notes, and handy scripts. Join me in exploring the ever-evolving landscape of technology 
+            </p>
+
+
+          </div>
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/hero-banner.png" width="327" height="490" alt="Said El-Sherbiny" class="w-100">
+
+            <img src="./assets/images/robot.png" width="27" height="26" alt="shape" class="shape shape-1">
+
+            <img src="./assets/images/robot.png" width="27" height="26" alt="shape" class="shape shape-2">
+
+          </div>
+
+          <img src="./assets/images/shadow-1.svg" width="500" height="800" alt="" class="hero-bg hero-bg-1">
+
+          <img src="./assets/images/shadow-2.svg" width="500" height="500" alt="" class="hero-bg hero-bg-2">
+
+        </div>
+      </section>
+
+      <!-- 
+        - #TOPICS
+      -->
+
+      <section class="topics" id="topics" aria-labelledby="topic-label">
+        <div class="container">
+
+          <div class="card topic-card">
+
+            <div class="card-content">
+
+              <h2 class="headline headline-2 section-title card-title" id="topic-label">
+                Some of my work!
+              </h2>
+
+              <p class="card-text">
+                Feel free to go to my Github Repo and read some of the CTF writeups, Research and notes I have: https://github.com/saidelsherbiny
+              </p>
+
+              <div class="btn-group">
+                <!-- <button class="btn-icon" aria-label="previous" data-slider-prev>
+                  <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                </button> -->
+
+                <!-- <button class="btn-icon" aria-label="next" data-slider-next>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button> -->
+              </div>
+
+            </div>
+
+            <div class="slider" data-slider>
+              <ul class="slider-list" data-slider-container>
+
+                <li class="slider-item">
+                  <a href="https://github.com/saidelsherbiny/HackTheBox/tree/main/Clicker" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/clicker.png" width="507" height="618" loading="lazy" alt="Clicker.htb"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Hack the box Clicker writeup</span>
+
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="https://github.com/saidelsherbiny/notes" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/notes.png" width="507" height="618" loading="lazy" alt="Notes"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Notes</span>
+
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/AD.jpg" width="507" height="618" loading="lazy" alt="Design"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">AD Management</span>
+                    </div>
+
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+  <ul class="social-list">
+
+    <li>
+      <a href="https://www.linkedin.com/in/said-el-sherbiny-a9a341170/" class="social-link">
+        <ion-icon name="logo-linkedin"></ion-icon>
+
+        <span class="span">LinkedIn</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://github.com/saidelsherbiny" class="social-link">
+        <ion-icon name="logo-github"></ion-icon>
+
+        <span class="span">Github</span>
+      </a>
+    </li>
+
+  </ul>
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
